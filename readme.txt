@@ -8,4 +8,5 @@ Welcome to VueJS Stack by CodeMobiles
 - npm i -g yarn
 - yarn --version 
 - yarn global add @vue/cli
+- cd Desktop, mkdir swu_vuejs_students 
 - Create Project : vue create demo0
