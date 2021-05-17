@@ -40,3 +40,6 @@ yarn add/remove body-parser
 
 # install mongo
 macOS - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+brew tap mongodb/brew
+brew install mongodb-community@4.4
+
