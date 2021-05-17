@@ -15,6 +15,10 @@ Welcome to VueJS Stack by CodeMobiles
 
 # Setting VSCode for Development
 -------------------------
-- Extension : [vscode-icon, vetur, vue2 snippet, prettier,]
-
+- Extension : [vscode-icon, vetur, prettier,]
+- Create .vscode -> settings.json 
+{
+    "editor.formatOnSave": true,
+    "files.autoSaveDelay": 3000
+}
 
