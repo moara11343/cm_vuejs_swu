@@ -32,3 +32,5 @@ Welcome to VueJS Stack by CodeMobiles
 index.html -> <div id="app"></div> -> main.js -> App.js
 
 sudo npm i -g nodemon 
+npx nodemon server.js
+ npm init -y
