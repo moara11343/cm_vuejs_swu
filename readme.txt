@@ -39,6 +39,7 @@ yarn add/remove body-parser
 
 
 # install mongo
+https://www.youtube.com/watch?v=EEiIHZt-VaY
 macOS - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
 xcode-select --install
 brew tap mongodb/brew
