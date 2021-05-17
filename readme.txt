@@ -33,3 +33,7 @@ index.html -> <div id="app"></div> -> main.js -> App.js
 
 
 
+rules: {
+    'no-console': 'off',
+    'no-debugger': 'off'
+  }
