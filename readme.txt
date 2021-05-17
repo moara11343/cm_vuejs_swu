@@ -44,3 +44,6 @@ xcode-select --install
 brew tap mongodb/brew
 brew install mongodb-community@4.4
 
+window - https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.6-signed.msi
+run exe
+
