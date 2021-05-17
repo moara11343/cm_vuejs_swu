@@ -48,3 +48,6 @@ brew install mongodb-community@4.4
 window - https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.6-signed.msi
 run exe
 
+brew services start mongodb-community
+brew services stop mongodb-community
+
