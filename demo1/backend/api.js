@@ -1,12 +1,8 @@
 const express = require("express")
 const router = express.Router()
 
-router.get("/login", (req, res)=>{
-    res.json({result: "login ok"})
-})
-
-router.get("/register", (req, res)=>{
-    res.json({result: "register ok"})
-})
+router.use(require("./api_auth"))
+router.use(require("./api_product"))
+router.use(require("./api_transaction"))
 
 module.exports = router;
