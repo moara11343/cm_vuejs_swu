@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>My name is </h1>
+    <h1>My name is {{}}</h1>
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Hello to Your Vue.js App" />
   </div>
@@ -14,6 +14,12 @@ export default {
   components: {
     HelloWorld,
   },
+  data() {
+    return {
+      myName: "Lek"
+    }
+  },
+  
 };
 </script>
 
