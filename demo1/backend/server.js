@@ -3,6 +3,7 @@ const app = express()
 const bodyParser = require("body-parser")
 
 app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({extended: false}))
 
 app.use(express.static(__dirname + "/uploaded"));
 app.use("/api/v2", require("./api"));

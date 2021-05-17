@@ -1,8 +1,8 @@
 const express = require("express")
 const router = express.Router()
 
-router.get("/login", (req, res)=>{
-    res.json({result: "login ok"})
+router.post("/login", (req, res)=>{
+    res.json({result: "login ok", content: req.body})
 })
 
 router.post("/register", (req, res)=>{
