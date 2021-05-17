@@ -2,7 +2,7 @@ var mongoose = require("mongoose");
 
 mongoose.set("useCreateIndex", true);
 mongoose
-  .connect("mongodb://127.0.0.1/cmpos", {
+  .connect("mongodb://127.0.0.1/swupos", {
     useUnifiedTopology: true,
     useNewUrlParser: true,
   })
