@@ -31,9 +31,4 @@ Welcome to VueJS Stack by CodeMobiles
 ---------------------
 index.html -> <div id="app"></div> -> main.js -> App.js
 
-
-
-rules: {
-    'no-console': 'off',
-    'no-debugger': 'off'
-  }
+sudo npm i -g nodemon 
