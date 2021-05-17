@@ -6,7 +6,7 @@ router.get("/login", (req, res)=>{
 })
 
 router.post("/register", (req, res)=>{
-    res.json({result: "register ok"})
+    res.json({result: "register ok", content: req.body})
 })
 
 module.exports = router;
