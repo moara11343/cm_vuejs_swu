@@ -12,3 +12,9 @@ Welcome to VueJS Stack by CodeMobiles
 - Create Project : vue create demo0
 - test with : yarn serve
  C:\Users{YourAccount}\AppData\Local\Yarn\bin
+
+# Setting VSCode for Development
+-------------------------
+- Extension : [vscode-icon, vetur, vue2 snippet, prettier,]
+
+
