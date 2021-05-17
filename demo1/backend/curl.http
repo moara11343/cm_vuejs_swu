@@ -3,3 +3,8 @@ GET http://localhost:3000/api/v2/login HTTP/1.1
 
 ### register
 GET http://localhost:3000/api/v2/register HTTP/1.1
+
+
+### get product
+GET http://localhost:3000/api/v2/product HTTP/1.1
+
