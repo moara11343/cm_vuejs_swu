@@ -7,9 +7,9 @@ router.post("/login", (req, res) => {
 });
 
 router.post("/register", (req, res) => {
-  const username = req.body.username;
-  const password = req.body.password;
-  res.json({ result: "register ok", content: [username, password] });
+  Users.create(req.body, (error, doc) => {
+    res.json({ result: "register ok", detail: doc });
+  });
 });
 
 module.exports = router;
