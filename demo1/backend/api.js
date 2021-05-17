@@ -1,7 +1,12 @@
-// app.get("/login", (req, res)=>{
-//     res.json({result: "login ok"})
-// })
+const express = require("express")
+const router = express.Router()
 
-// app.get("/register", (req, res)=>{
-//     res.json({result: "register ok"})
-// })
+router.get("/login", (req, res)=>{
+    res.json({result: "login ok"})
+})
+
+router.get("/register", (req, res)=>{
+    res.json({result: "register ok"})
+})
+
+module.exports = router;
