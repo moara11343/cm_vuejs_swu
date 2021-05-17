@@ -53,3 +53,8 @@ brew services stop mongodb-community
 mongo localhost
 
 https://www.mongodb.com/try/download/compass?tck=docs_compass
+
+
+# backend
+# nodejs
+yarn add bcryptjs body-parser cors express formidable fs-extra jsonwebtoken moment mongoose mongoose-sequence onesignal-node
