@@ -1,0 +1,5 @@
+### login
+GET http://localhost:3000/login HTTP/1.1
+
+### register
+GET http://localhost:3000/register HTTP/1.1
