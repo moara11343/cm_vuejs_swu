@@ -36,3 +36,7 @@ npx nodemon server.js
 npm init -y
 yarn add express
 yarn add/remove body-parser
+
+
+# install mongo
+macOS - https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/

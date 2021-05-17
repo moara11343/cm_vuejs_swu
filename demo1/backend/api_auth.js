@@ -6,7 +6,9 @@ router.post("/login", (req, res)=>{
 })
 
 router.post("/register", (req, res)=>{
-    res.json({result: "register ok", content: req.body})
+    const username = req.body.username
+    const password = req.body.password
+    res.json({result: "register ok", content: [username, password]})
 })
 
 module.exports = router;
