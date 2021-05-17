@@ -50,4 +50,6 @@ run exe
 
 brew services start mongodb-community
 brew services stop mongodb-community
+mongo localhost
 
+https://www.mongodb.com/try/download/compass?tck=docs_compass
