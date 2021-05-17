@@ -22,3 +22,14 @@ Welcome to VueJS Stack by CodeMobiles
     "files.autoSaveDelay": 3000
 }
 
+# Run Project as (JIT - Just in time - Debug Mode)
+--------------------------
+ yarn serve
+
+
+# Entry Flow of VueJS
+---------------------
+index.html -> <div id="app"></div> -> main.js -> App.js
+
+
+
