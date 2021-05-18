@@ -62,3 +62,4 @@ yarn add bcryptjs body-parser cors express formidable fs-extra jsonwebtoken mome
 mongo swupos --eval "db.users.find({})"
 https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.3.1.zip
 brew install rbenv/tap/openssl@1.0
+mongorestore -d swupos /Users/chaiyasit/Desktop/cm_vuejs_swu/demo1/backend/dummy_db_cmpos
