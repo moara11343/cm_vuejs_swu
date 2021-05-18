@@ -6,7 +6,7 @@ const bcrypt = require("bcryptjs");
 router.post("/login", async (req, res) => {
   // destructuring || unpack
   const { username, password } = req.body;
-  const doc = await Users.findOne({ username: username });
+  const doc = await Users.findOne({ username });
   res.json(doc);
 });
 
