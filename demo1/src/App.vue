@@ -16,7 +16,8 @@ export default {
     };
   },
   methods: {
-    onClickCountBtn: () => {
+    onClickCountBtn() {
+      this.count++;
       console.log("1234");
     },
   },
