@@ -1,25 +1,18 @@
 <template>
   <div id="app">
-    <h1>My name is {{myName}}</h1>
+    <h1>My name is {{ myName }}</h1>
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Hello to Your Vue.js App" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-  components: {
-    HelloWorld,
-  },
   data() {
     return {
-      myName: "Lek"
-    }
+      myName: "Lek",
+    };
   },
-  
 };
 </script>
 
