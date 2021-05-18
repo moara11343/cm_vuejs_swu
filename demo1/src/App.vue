@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <h1>My name is {{ myName }}</h1>
-    <h1 v-on:click="onClickCountBtn">Count is {{ count }}</h1>
+    <h1 @click="onClickCountBtn">Count is {{ count }}</h1>
     <img alt="Vue logo" src="./assets/logo.png" />
-    <MyComponent v-bind:title="count"></MyComponent>
+
+    <MyComponent :title="count" @clear="clear" />
   </div>
 </template>
 
@@ -20,6 +21,9 @@ export default {
     };
   },
   methods: {
+    clear() {
+      this.count = 0;
+    },
     onClickCountBtn() {
       this.count++;
       console.log("1234");
