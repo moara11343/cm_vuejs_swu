@@ -21,6 +21,11 @@ export default {
       console.log("1234");
     },
   },
+  mounted() {
+    setInterval(() => {
+      this.count++;
+    }, 1000);
+  },
 };
 </script>
 
