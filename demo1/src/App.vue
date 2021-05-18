@@ -4,7 +4,7 @@
     <h1 @click="onClickCountBtn">Count is {{ count }}</h1>
     <img alt="Vue logo" src="./assets/logo.png" />
 
-    <MyComponent :title="count" @clear="clear" />
+    <MyComponent :title="count" @onClear="clear" />
   </div>
 </template>
 
