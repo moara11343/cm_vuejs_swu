@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>My name is {{ myName }}</h1>
-    <h1>Count is {{ count }}</h1>
+    <h1 @click="onClickCountBtn">Count is {{ count }}</h1>
     <img alt="Vue logo" src="./assets/logo.png" />
   </div>
 </template>
@@ -14,6 +14,11 @@ export default {
       myName: "Lek",
       count: 0,
     };
+  },
+  methods: {
+    onClickCountBtn: () => {
+      console.log("1234");
+    },
   },
 };
 </script>
