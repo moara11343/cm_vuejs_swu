@@ -4,7 +4,9 @@ const Users = require("./models/user_schema");
 const bcrypt = require("bcryptjs");
 
 router.post("/login", async (req, res) => {
-  const doc = await Users.find({});
+  // destructuring || unpack
+  const { username, password } = req.body;
+  const doc = await Users.findOne({ username: username });
   res.json(doc);
 });
 
