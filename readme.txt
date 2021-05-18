@@ -60,3 +60,4 @@ https://www.mongodb.com/try/download/compass?tck=docs_compass
 yarn add bcryptjs body-parser cors express formidable fs-extra jsonwebtoken moment mongoose mongoose-sequence onesignal-node
 
 mongo swupos --eval "db.users.find({})"
+https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.3.1.zip
