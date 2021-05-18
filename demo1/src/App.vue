@@ -3,7 +3,7 @@
     <h1>My name is {{ myName }}</h1>
     <h1 v-on:click="onClickCountBtn">Count is {{ count }}</h1>
     <img alt="Vue logo" src="./assets/logo.png" />
-    <MyComponent></MyComponent>
+    <MyComponent title="lek"></MyComponent>
   </div>
 </template>
 
