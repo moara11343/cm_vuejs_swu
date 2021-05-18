@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1>MyComponent {{ title }}</h1>
-    <button @click="clear">Clear</button>
+    <button @click="clear">Clear 1</button>
+    <button @click="$emit('onClear', {})">Clear 2</button>
   </div>
 </template>
 
