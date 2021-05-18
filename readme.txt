@@ -63,3 +63,20 @@ mongo swupos --eval "db.users.find({})"
 https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.3.1.zip
 brew install rbenv/tap/openssl@1.0
 mongorestore -d swupos /Users/chaiyasit/Desktop/cm_vuejs_swu/demo1/backend/dummy_db_cmpos
+
+
+# Vue
+- App component (root component)
+- What is is component?
+- data, props, method, mounted
+- template, script, style
+- interpolation {{}}
+- v-on:click ~ @click
+- v-bind:prop="" ~ :prop
+- prop="static content"
+- :prop="variable or function"
+- this.$emit("event")
+- @event="listener" 
+- import ComponentName from "./ or @"
+
+

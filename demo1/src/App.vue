@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import MyComponent from "./components/MyComponent";
+import MyComponent from "@/components/MyComponent";
 
 export default {
   name: "App",
