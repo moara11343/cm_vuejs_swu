@@ -7,7 +7,17 @@ router.post("/login", async (req, res) => {
   // destructuring || unpack
   const { username, password } = req.body;
   const doc = await Users.findOne({ username });
-  res.json(doc);
+
+  if (doc) {
+    const isPasswordValid = await bcrypt.compare(password, doc.password);
+    if (isPasswordValid) {
+      res.json({ result: "ok", token, message: "success" });
+    } else {
+      res.json({ result: "nok", message: "invalid password" });
+    }
+  } else {
+    res.json({ result: "nok", message: "invalid username" });
+  }
 });
 
 router.post("/register", async (req, res) => {
